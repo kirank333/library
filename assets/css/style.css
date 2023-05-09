@@ -9,6 +9,11 @@
 /*--------------------------------------------------------------
 # General
 --------------------------------------------------------------*/
+@import url('https://fonts.googleapis.com/css2?family=Sedgwick+Ave+Display&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500&family=Sedgwick+Ave+Display&display=swap');
+
+
 body {
   font-family: "Open Sans", sans-serif;
   color: #444444;
@@ -126,7 +131,7 @@ h6 {
 #hero {
   width: 100%;
   height: 100vh;
-  background: url("/Gp/assets/css/lib.jpg.jpg") top center;
+  background: url("https://images.pexels.com/photos/694740/pexels-photo-694740.jpeg") top center;
   background-size: cover;
   position: relative;
 }
@@ -227,27 +232,36 @@ h6 {
 
 .topnav {
   overflow: hidden;
-  background-color: #333;
+  background-color:#444444;
+  padding-right: 90px;
 }
 
 .topnav a {
   float: left;
   display: block;
-  color: #f2f2f2;
+  color:white;
   text-align: center;
-  padding: 14px 16px;
+  padding: 20px 16px;
   text-decoration: none;
-  font-size: 17px;
+  font-size: 21px;
+  font-weight: bold;
+  
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+#about{
+  background-color:gray;
+  height: 800px;
+  padding-top:5rem;
 }
 
 .topnav a:hover {
-  background-color: #ddd;
-  color: black;
+  background-color: black;
+  color: white;
 }
 
 .topnav a.active {
-  background-color: #04AA6D;
-  color: white;
+  background-color: black;
+  color:aliceblue;
 }
 
 .topnav .icon {
